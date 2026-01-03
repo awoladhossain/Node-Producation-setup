@@ -7,7 +7,7 @@
     "dist": "npx tsc",
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -16,10 +16,13 @@
   "devDependencies": {
     "@commitlint/cli": "^20.3.0",
     "@commitlint/config-conventional": "^20.3.0",
+    "@eslint/js": "^9.39.2",
     "@types/node": "^25.0.3",
+    "eslint": "^9.39.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "nodemon": "^3.1.11",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.51.0"
   }
 }
